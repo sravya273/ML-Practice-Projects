@@ -9,3 +9,11 @@ MovieID: represents the ID of the movie
 Timestamp: represents seconds from midnight Coordinated Universal Time (UTC) of January 1, 1970.
 
 #### Objective: Predict a movie-movie recommendation model.
+
+#### Steps involved:  
+1. Import libraries and dataset  
+2. Identify total number of users and movies
+3. Split the data into training and test sets
+4. Populate train test matrices with ratings
+5. Create cosine similarity matrices for users and movies
+6. Perform predictions
