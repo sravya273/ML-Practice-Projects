@@ -17,3 +17,4 @@ Timestamp: represents seconds from midnight Coordinated Universal Time (UTC) of 
 4. Populate train test matrices with ratings
 5. Create cosine similarity matrices for users and movies
 6. Perform predictions
+7. Find the best model
