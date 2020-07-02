@@ -1,0 +1,342 @@
+1. Which function in Pandas library allows to manipulate data and create new variables?
+SELECT THE CORRECT ANSWER
+
+A.pivot_table function
+B.read_csv function
+C.merge function
+D.apply function
+
+Correct Option:D
+
+2.Which of the following Python libraries provides advanced random number capabilities?
+SELECT THE CORRECT ANSWER
+
+A.NumPy
+B.SciPy
+C.Pandas
+D.SymPy
+Correct Option:A
+
+EXPLANATION
+
+3.NumPy is the fundamental package for scientific computing in Python and useful for random number capabilities.
+
+What is the output of the below Python code? import numpy as np percentiles = [98, 76.37, 55.55, 69, 88] first_subject = np.array(percentiles) print first_subject.dtype
+SELECT THE CORRECT ANSWER
+
+A.float64
+B.float32
+C.int32
+D.float
+
+Correct Option:A
+
+EXPLANATION
+
+Python’s floating-point numbers are usually 64-bit floating-point numbers.
+
+4.Which of the following methods is used to find the best fit line for data in Linear Regression?
+SELECT THE CORRECT ANSWER
+
+A.Least Square Error
+B.Maximum Likelihood
+C.Logarithmic Loss
+D.Both A and B
+
+Correct Option:A
+
+EXPLANATION
+
+The least squares method is a form of mathematical regression analysis that finds the line of best fit for a dataset, providing a visual demonstration of the relationship. between the data points
+
+5.Which of the following statements is true about outliers in Linear regression?
+SELECT THE CORRECT ANSWER
+
+A.Linear regression is sensitive to outliers
+B.Linear regression is not sensitive to outliers
+C.The slope of the regression line will not change due to outliers
+D.None of the above options
+
+Correct Option:A
+
+EXPLANATION
+
+LR is sensitive to outliers and poor quality data as in the real world.
+
+6.R-Squared measures: 
+SELECT THE CORRECT ANSWER
+
+A.The correlation between X and Y
+B.The amount of variation in Y
+C.The explained sum of squares as a proportion of the total sum of squares
+D.The residual sum of squares as a proportion of the total sum of squares
+
+Correct Option:C
+
+EXPLANATION
+
+R-squared shows how close or far the predicted data is, with respect to the actual values.
+
+7.Which of the following options is true?
+SELECT THE CORRECT ANSWER
+
+A.Linear Regression error values have to be normally distributed, but in case of Logistic Regression it is not the case
+B.Logistic regression error values have to be normally distributed, but in case of linear regression it is not the case
+C.Both linear regression and logistic regression error values have to be normally distributed
+D.Both linear regression and logistic regression error values may not to be normally distributed
+
+Correct Option:A
+
+EXPLANATION
+
+You get meaningful parameter estimates from nominal (unordered categories) or numerical (continuous or discrete) independent variables.
+
+8.Which of the following options are true about PCA and LDA? 1. Both LDA and PCA are linear transformation techniques 2. LDA is supervised, whereas PCA is unsupervised 3. PCA maximizes the variance of the data, whereas LDA maximizes the separation between different classes
+SELECT THE CORRECT ANSWER
+
+A.1 and 2
+B.1 and 3
+C.Only 3
+D.1, 2, and 3
+
+Correct Option:D
+
+EXPLANATION
+
+All of the options are correct
+
+9.Which of the following is an alternative technique to Principal Component Analysis ?
+SELECT THE CORRECT ANSWER
+
+A.Factor analysis
+B.Independent components analysis
+C.Latent semantic analysis
+D.All of the above options
+
+Correct Option:D
+
+EXPLANATION
+
+Depending on the problem, any of the above techniques may be used.
+
+10.What will happen when eigen values are roughly equal?
+SELECT THE CORRECT ANSWER
+
+A.PCA performance is high
+B.PCA performance is low
+C.It does not affect PCA performance
+D.None of above options
+
+Correct Option:B
+
+EXPLANATION
+
+11.When all eigen values are same, you won’t be able to select the principal components as all principal components are equal.
+
+Imagine, you are solving a classification problem with highly imbalanced class. The majority class is observed 99% of times in the training data. Your model has 99% accuracy after taking the predictions on test data. Which of the following is true in such a case? 1. Accuracy metric is not good for imbalanced class problem. 2. Accuracy metric is good for imbalanced class problem. 3. Precision and recall metrics are good for imbalanced class problem. 4. Precision and recall metrics aren’t good for imbalanced class problem.
+SELECT THE CORRECT ANSWER
+
+A.1 and 3
+B.1 and 4
+C.2 and 3
+D.2 and 4
+
+Correct Option:A
+
+EXPLANATION
+
+Accuracy should not be used as a measure of performance because 96% (as given) might only be predicting majority class correctly, but our class of interest is minority class (4%). Hence, you should use confusion matrix and F measure to determine class-wise performance of the classifier.
+
+12.Can decision trees be used for performing clustering?
+SELECT THE CORRECT ANSWER
+
+A.TRUE
+B.FALSE
+
+Correct Option:A
+
+EXPLANATION
+
+Decision trees can also be used for clusters in the data but clustering often generates natural clusters and is not dependent on any objective function.
+
+13.What is the minimum no. of variables/ features required to perform clustering?
+SELECT THE CORRECT ANSWER
+
+A.0
+B.1
+C.2
+D.3
+
+Correct Option:B
+
+EXPLANATION
+
+At least a single variable is required to perform clustering analysis. Clustering analysis with a single variable can be visualized with the help of a histogram.
+
+14.In time-series analysis, which source of variation can be estimated by the ratio-to-trend method?
+SELECT THE CORRECT ANSWER
+
+A.Cyclical
+B.Trend
+C.Seasonal
+D.Irregular
+
+Correct Option:C
+
+EXPLANATION
+
+Seasonal variations are measured as a percentage of the trend rather than in absolute quantities. The seasonal index for any month (week, quarter, etc.) may be defined as the ratio of the normally expected value (excluding the business cycle and erratic movements) to the corresponding trend value.
+
+15.Which of the following is true about averaging ensemble?
+SELECT THE CORRECT ANSWER
+
+A.It can only be used in classification problem
+B.It can only be used in regression problem
+C.It can be used in both classification as well as regression problem
+D.None of the above options
+
+Correct Option:C
+
+EXPLANATION
+
+You can use average ensemble on classification as well as regression. In classification, you can apply averaging on prediction probabilities, whereas in regression you can directly average the prediction of different models.
+
+16.Which of the following is the command to replace a value in a data frame at "third" row of column "Name" with a NAN value ?
+SELECT THE CORRECT ANSWER
+
+A.(df.index[3], 'Name') = np.nan
+B.df.index[3]=='NAN'
+C.df.loc[df.index[3], 'Name'] = np.nan
+D.df.Name[df.index[3]] = np.nan
+
+Correct Option:C
+
+EXPLANATION
+
+The value at the specified location is referenced and replaced using the index and column name of the dataframe.
+
+17.To test linear relationship of y(dependent) and x(independent) continuous variables, which of the following plots is best suited?
+SELECT THE CORRECT ANSWER
+
+A.Barchart
+B.Histogram
+C.Scatter Plot
+D.None of the above options
+
+Correct Option:C
+
+EXPLANATION
+
+ A scatter plot best displays the relationship between two quantitative variables.
+ 
+18.What is pca.components_ in Sklearn?
+SELECT THE CORRECT ANSWER
+
+A.Set of all eigen vectors for the projection space
+B.Matrix of principal components
+C.Result of the multiplication matrix
+D.None of the above options
+
+Correct Option:A
+
+EXPLANATION
+
+pca.components_ is the set of all eigen vectors for the projection space.
+
+19.Advantages of SVM are :
+SELECT THE CORRECT ANSWER
+
+A.Effective in high dimensional spaces
+B.Memory efficient
+C.Versatile
+D.All of the above options
+
+Correct Option:D
+
+EXPLANATION
+
+SVM's are versatile, memory efficient, and effective in high dimensional spaces.
+
+20.Which of the following is true about Naive Bayes ?
+SELECT THE CORRECT ANSWER
+
+A.Assumes that all of the features in a dataset are equally important 
+B.Assumes that all of the features in a dataset are independent
+C.Both A and B
+D.None of the above options
+
+Correct Option:C
+
+EXPLANATION
+
+Naive Bayes assumes that all of the features in a data set are equally important and independent.
+
+21.When is Ridge regression favorable over Lasso regression?
+SELECT THE CORRECT ANSWER
+
+A.In presence of few variables with medium / large sized effect
+B.When the least square estimates have higher variance
+C.Both A and B
+D.None of the above options
+
+Correct Option:C
+
+EXPLANATION
+
+In presence of correlated variables, ridge regression might be the preferred choice. Also, ridge regression works best in situations where the least square estimates have higher variance.
+
+22.Which of the following is true for white noise? 
+SELECT THE CORRECT ANSWER
+
+A.Zero autocovariances
+B.Zero autocovariances, except at lag zero
+C.Mean is zero
+D.Mean is constant
+
+Correct Option:B
+
+EXPLANATION
+
+White noise has zero autocovariances, except at lag zero.
+
+23.In Ensemble learning, majority vote is used for:
+SELECT THE CORRECT ANSWER
+
+A.Regression
+B.Classification
+C.Both A and B
+D.None of the above options
+
+Correct Option:B
+
+EXPLANATION
+
+The most popular combination schemes are majority vote for classification and weighted averaging for regression.
+
+24.Which of the following techniques can be used for normalization in text mining?
+SELECT THE CORRECT ANSWER
+
+A.Stemming
+B.Lemmatization
+C.Stop Word Removal
+D.Both A and B
+
+Correct Option:D
+
+EXPLANATION
+
+Lemmatization and stemming are the techniques of keyword normalization.
+
+25.Which of the following is not a text mining task?
+SELECT THE CORRECT ANSWER
+
+A.Text clustering
+B.Entity relation modelling
+C.Production of granular taxonomies
+D.Text restructuring
+
+Correct Option:D
+
+EXPLANATION
+
+Text restructuring is not a text mining task
